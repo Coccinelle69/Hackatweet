@@ -1,0 +1,24 @@
+.hashtagContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.hashtagContainer:hover {
+  background-color: #232d3b;
+  padding: 1.25rem;
+}
+
+.hashtagCount {
+  color: #505c6c;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.hashtag {
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}

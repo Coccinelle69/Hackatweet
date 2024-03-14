@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left {
+  flex: 2;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.left button {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+.left img {
+  height: 4rem;
+  width: 4rem;
+}
+.userContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.firstname {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.userInfo {
+  margin-left: 0.75rem;
+}
+.username {
+  color: #67727b;
+}
+
+.main {
+  flex: 4;
+  border-left: white solid 1px;
+  border-right: white solid 1px;
+}
+
+.main h2 {
+  margin: 2rem;
+  font-weight: 500;
+}
+
+.right {
+  flex: 3;
+}
+
+.right h2 {
+  margin: 2rem;
+  font-weight: 500;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer input {
+  font-size: 1rem;
+  color: white;
+  background-color: #1b232c;
+  border: none;
+  width: 80%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.inputContainer input:focus {
+  outline: none;
+}
+
+.inputContainer input::placeholder {
+  color: #a7abaf; /* Specify the color you want for the placeholder text */
+}
+
+.mainContainer {
+  border-bottom: white 1px solid;
+}
+
+.hashtagsContainer {
+  background-color: #1b232c;
+  margin: 0 0.75rem;
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+.hashtagContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.hashtagContainer:hover {
+  background-color: #232d3b;
+  padding: 1.25rem;
+}
+
+.hashtagCount {
+  color: #505c6c;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.hashtag {
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}

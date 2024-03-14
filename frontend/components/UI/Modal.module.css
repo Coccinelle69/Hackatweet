@@ -1,0 +1,52 @@
+.dialog {
+  background-color: #151d26;
+  width: 30%;
+  top: 20%;
+  left: 30%;
+  position: fixed;
+  z-index: 5;
+  padding: 2rem;
+  text-align: center;
+
+  border: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding-bottom: 4rem;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 1rem;
+}
+
+.closeBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.close {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}

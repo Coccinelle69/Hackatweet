@@ -1,0 +1,16 @@
+.hashtagsContainer {
+  background-color: #1b232c;
+  margin: 0 0.75rem;
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+.right {
+  flex: 3;
+}
+
+.right h2 {
+  margin: 2rem;
+  font-weight: 500;
+}

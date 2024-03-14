@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  flex: 4;
+  border-left: white solid 1px;
+  border-right: white solid 1px;
+  overflow-y: scroll;
+}
+
+.main h2 {
+  margin: 2rem;
+  font-weight: 500;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer textarea {
+  font-size: 1rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  border-bottom: white 1px solid;
+  resize: none;
+}
+
+.inputContainer textarea:focus {
+  outline: none;
+}
+
+.inputContainer textarea::placeholder {
+  color: #6b7785; /* Specify the color you want for the placeholder text */
+}
+
+.inputActions {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin-top: 1rem;
+  align-items: center;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+.inputActions span {
+  font-size: 0.75rem;
+}
+
+.inputActions button {
+  font-weight: bold;
+  background-color: #3690ed;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 0.5rem 1.75rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.mainContainer {
+  border-bottom: white 1px solid;
+}
+
+.circle {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 2px solid gray;
+  display: inline-block;
+}

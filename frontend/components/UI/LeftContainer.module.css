@@ -1,0 +1,45 @@
+.left {
+  flex: 2;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.left button {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+.left img {
+  height: 4rem;
+  width: 4rem;
+}
+.userContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.firstname {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.userInfo {
+  margin-left: 0.75rem;
+}
+.username {
+  color: #67727b;
+}

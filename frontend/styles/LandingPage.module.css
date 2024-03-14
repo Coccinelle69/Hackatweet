@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "MontDemo-Heavy"; /* Specify the name you want to use for the font */
+  src: url("/fonts/MontDemo-Heavy.otf") format("opentype"); /* Specify the path to your OTF font file */
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 6rem;
+  margin-bottom: 3rem;
+  /* font-family: "MontDemo-Heavy", sans-serif; */
+}
+
+.joinText {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.imageContainer {
+  width: 35%;
+}
+
+.introContainer {
+  width: 40%;
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.account {
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+  font-weight: bold;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
