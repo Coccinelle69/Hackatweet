@@ -3,10 +3,12 @@ import Link from "next/link";
 import styles from "./LeftContainer.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "../../store/reducers/users";
+import { useRouter } from "next/navigation";
 
 const LeftContainer = ({ userPhoto, openModal, clickUserProfile }) => {
   const user = useSelector((state) => state.users.value);
   const dispatch = useDispatch();
+  const router = useRouter();
 
   const logoutHandler = () => {
     router.replace("/home");
